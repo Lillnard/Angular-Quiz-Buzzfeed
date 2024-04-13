@@ -70,6 +70,16 @@
   border-radius: 10px;
 }
 
+.quiz-results h1{
+  font-size: 40px;
+}
+
+.quiz-results p{
+  font-size: 30px;
+  color: #18ab29;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 500px){
 
   .quiz-logo img{
@@ -100,7 +110,17 @@
   .quiz-results{
     text-align: center;
     gap: 20px 0;
+    padding: 0 10px;
   }
+
+  .quiz-results h1{
+    font-size: 25px;
+  }
+
+  .quiz-results p{
+    font-size: 20px;
+  }
+
 
 
 
